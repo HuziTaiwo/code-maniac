@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
 header {
@@ -76,6 +77,7 @@ a {
     rgba(0, 0, 0, 0.6)
   );
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
 }
 
@@ -140,6 +142,7 @@ img {
     rgb(9, 23, 211)
   );
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
   animation: commet 0.4s ease-in-out infinite alternate;
   transform: translateX(-20px);
@@ -234,5 +237,6 @@ img {
 .color i {
   font-size: 40px;
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
 }
