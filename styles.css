@@ -4,3 +4,9 @@
 .carousel {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
 }
+.nav-pills .nav-link.active {
+  /* background: none !important; */
+  color: #002333;
+  /* border: none !important; */
+  /* border-bottom: 1px solid #002333; */
+}
