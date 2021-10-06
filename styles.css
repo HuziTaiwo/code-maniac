@@ -4,9 +4,20 @@
 .carousel {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
 }
-.nav-pills .nav-link.active {
-  /* background: none !important; */
-  color: #002333;
-  /* border: none !important; */
-  /* border-bottom: 1px solid #002333; */
+nav {
+  background: #002333 !important;
+}
+.card a {
+  background: #002333 !important;
+  color: #fff !important;
+}
+.nav .nav-item button {
+  color: #002333 !important;
+  background: none !important;
+  border-radius: 0;
+  border-bottom: 2px solid transparent;
+}
+.nav .nav-item button.active {
+  border-bottom: 2px solid #002333;
+  font-weight: 700;
 }
