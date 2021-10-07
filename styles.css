@@ -2,13 +2,30 @@
   color: #002333;
 }
 .carousel {
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+  /* text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9); */
 }
 .carousel-indicators button {
-  width: 20px !important;
-  height: 20px !important;
+  width: 15px !important;
+  height: 15px !important;
   border-radius: 50% !important;
 }
+#carouselFadeSlider .carousel-inner {
+  position: relative;
+}
+#carouselFadeSlider .carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -40%);
+  text-align: left;
+}
+#carouselFadeSlider .carousel-caption h2 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  color: teal;
+  font-weight: 900;
+}
+
 nav {
   background: #002333 !important;
 }
