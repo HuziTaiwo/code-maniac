@@ -43,3 +43,13 @@ nav {
   border-bottom: 2px solid #002333;
   font-weight: 700;
 }
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.img-login {
+  height: 100vh;
+  width: 600px;
+  object-fit: cover;
+}
