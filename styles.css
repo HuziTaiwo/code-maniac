@@ -1,9 +1,9 @@
 .container {
   color: #002333;
 }
-.carousel {
-  /* text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9); */
-}
+/* .carousel {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+} */
 .carousel-indicators button {
   width: 15px !important;
   height: 15px !important;
