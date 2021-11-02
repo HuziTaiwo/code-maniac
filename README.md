@@ -3,8 +3,8 @@
 
 ## A well-built developers website which includes various kinds of courses on web development
 
-### Includes...
-- HTML
+### Technology used includes...
+- Html
 - Bootstrap
 - Custom CSS
- Vallina JavaScript
+- Vallina JavaScript
